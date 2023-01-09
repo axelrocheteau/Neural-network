@@ -30,3 +30,13 @@ The last part is about the accuracy of the model given a certain amount of class
 ## Files
 
 The data directory in this project regroup all the images we used to trained the network. The csv in this directory regroup the labels and path of each image.
+Each jupyter notebook has a single task :
+
+dataset_load.ipynb      : Used to load the datasets and to create the csv file
+image_size.ipynb        : Train alexnet network for different quality of image input
+import_train_NN.ipynb   : Train 4 differents networks on the same dataset
+nb_classes.ipynb        : Train resnet network on three different number of classes to predict (done with a mac computer)
+compare_NN.ipynb        : Compare all the trained convolutionnal neural networks
+
+The trained model are stored in a separate directory because the files were too big to be stored on github : https://drive.google.com/drive/u/0/folders/1aIh3Pye3oQbDvRpnJbqEE1pRsAy6nDhX
+The accuracies of the trained  model at each epoch are stored in the txt files.

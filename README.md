@@ -25,5 +25,8 @@ To succeed in this task we used transfer learning method from model trained on i
 The project is divided into three main parts. Each part is showing the influence of a certain parameter on the results.
 Notice that in this project, du to a lack of computer power, hyperparameters are not optimized.
 The first part treat about diffrent pre-trained moodels. The second part tackle the quality of the input image (size and blur).
+The last part is about the accuracy of the model given a certain amount of class.
 
 ## Files
+
+The data directory in this project regroup all the images we used to trained the network. The csv in this directory regroup the labels and path of each image.
